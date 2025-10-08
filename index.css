@@ -359,6 +359,47 @@ footer {
   font-size: 0.9em;
 }
 
+.LinkTosrc {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.link-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #fff;
+}
+
+/* Live button */
+.live-btn {
+  background-color: #333; 
+}
+
+.live-btn:hover {
+  background-color: #24292e;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(40, 167, 69, 0.3);
+}
+
+/* GitHub button */
+.github-btn {
+  background-color: #333;
+}
+
+.github-btn:hover {
+  background-color: #24292e;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(36, 41, 46, 0.3);
+}
+
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2em;
